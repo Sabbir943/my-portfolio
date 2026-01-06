@@ -12,17 +12,22 @@
 /* Main style */
 header{
     background-color: #FFF8F3;
-    padding-top: 40px;
+    padding-top: 80px;
+    background: url("../images/developer.png") ,url("../images/header_bg.png"),#FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
 }
 .btn{
    background-color: #FD6E0A; 
    padding: 20px;
+   font-size: 20px;
+   font-weight: bold;
    border: none;
    border-radius: 10px;
    color: white;
 }
 nav{
-    width: 82%;
+    width: 71%;
     max-width:1140px;
     
     margin: 0 auto;
@@ -48,6 +53,46 @@ nav ul li a{
     text-decoration: none;
     color: #474747;
     font-size: 20px;
+}
+#banner{
+    
+    margin:  47px 38px 0px 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#banner-content{
+    max-width: 585px;
+}
+
+#banner-content h2{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+
+}
+#banner-content h1{
+    font-size: 85px;
+    font-weight: 800px;
+    color: black;
+}
+#banner-content p{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #757575;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+#banner-img{
+    max-width: 585px;
+}
+#banner-img img{
+    max-width: 500px;
+    height: 600px;
+    vertical-align: middle;
+    /* border: none;
+    border-radius: 20px; */
 }
 
 
