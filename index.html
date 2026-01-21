@@ -11,39 +11,65 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-        <!-- taiwind-css -->
-          <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- taiwind-css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body class=" font-sans">
-    <div class="max-w-full bg-[#FFF8F3]">
-    <header class="max-w-5xl mx-auto flex flex-row justify-between items-center pt-5  ">
-    <h1 class="text-5xl font-extrabold text-black">Sa<span class="text-orange-600 font-extrabold">bb</span>ir</h1>
-    
-          <ul class="flex flex-row gap-6 justify-center items-center">
-                    
-        <li><a class="text-[#474747]" href="">Portfolio</a></li>
-        <li><a class="text-[#474747]" href=""> Blog</a></li>
-        <li><a href=""><button class="text-white bg-[#FD6E0A] rounded-lg p-3 hover:bg-blue-600 cursor-pointer">Hire Me</button></a></li>
-     </ul>
-      
-    
-     
-  </header>
-  <div class="my-info max-w-5xl mx-auto">
-        <h3>Hi, I  am</h3>
-        <h1>Sabbir Ahmad</h1>
-        <p>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-        <div class="flex flex-row gap-4">
-             <button class="flex flex-row justify-center items-center gap-3 bg-[#FD6E0A] text-white p-3 font-bold rounded-lg hover:bg-blue-400 cursor-pointer"><img src="images/icons/down-arrow.png" alt="" width="16px" height="16px">Download CV</button>
+    <!-- done nav and banner section -->
+    <div class="max-w-full pt-5 bg-[#FFF8F3] md:bg-[url(./images/developer.png)] bg-no-repeat bg-left bg-contain">
+        <header class=" max-w-4xl mx-auto flex flex-row justify-between px-5 items-center md:max-w-5xl md:mx-auto md:flex md:flex-row md:justify-between md:items-center pt-5  ">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-black">Sa<span class="text-orange-600 font-extrabold">bb</span>ir
+            </h1>
 
-        <button class="text-[#FD6E0A] flex flex-row justify-center items-center gap-3 border p-3 rounded-lg font-bold"><img src="images/icons/tele-icon.png" alt="">Contact</button>
+            <ul class=" hidden md:flex md:flex-row md:gap-6 md:justify-center items-center">
+
+                <li><a class="text-[#474747]" href="">Portfolio</a></li>
+                <li><a class="text-[#474747]" href=""> Blog</a></li>
+                <li><a href=""><button
+                            class="text-white bg-[#FD6E0A] rounded-lg p-3 hover:bg-blue-600 cursor-pointer">Hire
+                            Me</button></a></li>
+            </ul>
+            <div class="md:hidden">
+               <img class="" src="images/icons/black-manu.png" alt="">
+            </div>
+            
+
+
+
+        </header>
+        
+             <div class="md:bg-[url(./images/header_bg.png)] bg-no-repeat bg-right-bottom">
+            <div class="my-info mt-14 max-w-5xl mx-auto grid grid-cols-1 place-items-center   md:flex md:flex-row md:justify-center md:items-center gap-10   ">
+            <div class="banner-content text-center md:text-left ">
+                <h3 class="text-[#474747] text-4xl">Hi, I am</h3>
+                <h1 class="font-extrabold text-5xl md:text-7xl text-[#181818] mt-6 mb-6">Sabbir Ahmad</h1>
+                <p class="text-[#757575] mt-4 mb-4">Shot what able cold new see hold.Friendly as an betrayed formerly
+                    he. Morning because as to society behaved moments.</p>
+                <div class="  flex flex-row gap-4 justify-center items-center md:justify-start md:items-start">
+                    <button
+                        class="flex flex-row justify-center items-center pr-3 gap-3 bg-[#FD6E0A] text-white p-3 font-bold rounded-lg hover:bg-blue-400 cursor-pointer"><img
+                            src="images/icons/down-arrow.png" alt="" width="16px" height="16px">Download CV</button>
+
+                    <button
+                        class="text-[#FD6E0A] flex flex-row justify-center items-center gap-3 pr-4 hover:bg-pink-300 border p-3 rounded-lg font-bold"><img
+                            src="images/icons/tele-icon.png" alt="">Contact</button>
+                </div>
+            </div>
+
+            <div class="banner-img  ">
+                <img src="sabbir.png" alt="" width="580px" height="676px">
+            </div>
+
+
+
         </div>
-       
+        </div>
+        
+        
+        
+    </div>
 
-    </div>
-    </div>
-  
 </body>
 
 </html>
